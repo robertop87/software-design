@@ -13,8 +13,12 @@ public class ClientMain {
     athleteRobert.run();
     athleteRobert.jump();
 
-    Athlete wheelsAthlete = new Athlete();
-    wheelsAthlete.run();
+    Athlete wheelsAthlete = new WheelsAthlete();
     wheelsAthlete.jump();
+    wheelsAthlete.jump();
+    wheelsAthlete.jump();
+    wheelsAthlete.jump();
+    wheelsAthlete.jump();
+    wheelsAthlete.run();
   }
 }
