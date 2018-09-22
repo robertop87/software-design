@@ -1,4 +1,4 @@
-package edu.alena.ocp;
+package edu.alsie.ocp;
 
 public interface AreaCalculator {
 

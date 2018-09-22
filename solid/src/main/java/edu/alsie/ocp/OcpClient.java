@@ -1,7 +1,7 @@
-package edu.alena.ocp;
+package edu.alsie.ocp;
 
-import edu.alena.ocp.behaviors.PolygonAreaCalculator;
-import edu.alena.ocp.behaviors.SquareAreaCalculator;
+import edu.alsie.ocp.behaviors.PolygonAreaCalculator;
+import edu.alsie.ocp.behaviors.SquareAreaCalculator;
 import java.util.Collections;
 
 public class OcpClient {

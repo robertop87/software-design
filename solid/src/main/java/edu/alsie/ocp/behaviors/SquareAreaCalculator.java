@@ -1,6 +1,6 @@
-package edu.alena.ocp.behaviors;
+package edu.alsie.ocp.behaviors;
 
-import edu.alena.ocp.AreaCalculator;
+import edu.alsie.ocp.AreaCalculator;
 
 public class SquareAreaCalculator implements AreaCalculator {
 

@@ -1,4 +1,4 @@
-package edu.alena.lsp;
+package edu.alsie.lsp;
 
 public interface Shape {
 
