@@ -5,29 +5,18 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public class ClientMain {
 
   public static void main(String[] args) {
-    Athlete athlete = new Athlete();
+    Athlete normalAthlete = new NormalAthlete();
 
-    athlete.run();
-    athlete.jump();
+    normalAthlete.play();
 
-    Athlete athleteRobert = new Athlete();
+    Athlete normalAthleteRobert = new NormalAthlete();
 
-    athleteRobert.run();
-    athleteRobert.jump();
+    normalAthleteRobert.play();
 
-    Athlete wheelsAthlete = new WheelsAthlete();
-    try{
-      wheelsAthlete.jump();
-      wheelsAthlete.jump();
-      wheelsAthlete.jump();
-      wheelsAthlete.jump();
-      wheelsAthlete.jump();
-      wheelsAthlete.run();
-    } catch (NotImplementedException nie) {}
+    Athlete wheelsNormalAthlete = new WheelsAthlete();
+    wheelsNormalAthlete.play();
 
-    Athlete gamerAthlete = new GamerAthlete();
-    gamerAthlete.run();
-    gamerAthlete.jump();
-    ((GamerAthlete) gamerAthlete).type();
+    Athlete gamerNormalAthlete = new GamerAthlete();
+    gamerNormalAthlete.play();
   }
 }
