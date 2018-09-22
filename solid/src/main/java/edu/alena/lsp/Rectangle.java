@@ -1,10 +1,19 @@
 package edu.alena.lsp;
 
-public class Rectangle {
+public class Rectangle implements Shape {
 
   private int width;
   private int height;
 
+  public Rectangle() {
+  }
+
+  public Rectangle(int width, int height) {
+    this.width = width;
+    this.height = height;
+  }
+
+  @Override
   public double calculateArea() {
     return this.width * this.height;
   }
