@@ -1,13 +1,9 @@
 package edu.alsie.isp;
 
-public class NormalAthlete implements AthleteRunnable, Jumpable, Athlete {
+public class NormalAthlete implements Jumpable, Athlete {
 
   public void jump() {
     System.out.println("Jumping");
-  }
-
-  public void run() {
-    System.out.println("Running");
   }
 
   public void play() {

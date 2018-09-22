@@ -2,11 +2,7 @@ package edu.alsie.isp;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
-public class WheelsAthlete implements AthleteRunnable, Typeable, Athlete {
-
-  public void run() {
-    System.out.println("Run with wheels");
-  }
+public class WheelsAthlete implements Typeable, Athlete {
 
   public void play() {
     this.run();
@@ -15,5 +11,10 @@ public class WheelsAthlete implements AthleteRunnable, Typeable, Athlete {
 
   public void type() {
     System.out.println("Typing");
+  }
+
+  @Override
+  public void run() {
+    System.out.println("Run with wheels");
   }
 }
