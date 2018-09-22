@@ -13,4 +13,8 @@ public class Duck {
   public void display() {
     System.out.println("Show Mallard Duck");
   }
+
+  public void fly() {
+    System.out.println("Flying");
+  }
 }
