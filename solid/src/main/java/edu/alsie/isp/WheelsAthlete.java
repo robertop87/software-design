@@ -1,9 +1,11 @@
 package edu.alsie.isp;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 public class WheelsAthlete extends Athlete {
 
   @Override
   public void jump() {
-    // Nothing to do
+    throw new NotImplementedException();
   }
 }
